@@ -2,8 +2,27 @@
 /* Custom CSS Document */
 
 body {
-	font-family:Georgia, serif; 
+	font-family: "ff-tisa-web-pro",serif; 
 }
 
+h1 {
+  font-family: "brandon-grotesque",sans-serif;
+    text-transform: uppercase;
+  }
 
 
+/* Bootstrap Overrides */
+.navbar {
+    font-family: "brandon-grotesque",sans-serif;
+    text-transform: uppercase;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-default {
+    background-color: #fff;
+    border:none;
+    
+}
